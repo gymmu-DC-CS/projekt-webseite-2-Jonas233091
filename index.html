@@ -1,12 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GYM-Tracker</title>
-</head>
-<body>
-    <h1>GYM-Tracker</h1>
-    <p>jonas ist ein homo</p>
-</body>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <img class="header-image" src="GYMBILD-Hintergrund.jpg">
+
+    <div class="container">
+      <img src="logo.png" class="logo">
+
+      <div>
+        <a class="menu-link" href="#">Mein GYM</a>
+        <a class="menu-link" href="">Kontakt</a>
+        <a class="menu-link" href="https://www.tiktok.com/@jonas_o.o_">Tik-Tok</a>
+        <a class="menu-link" href="https://www.instagram.com/">Instagram</a>
+      </div>
+    </div>
+
+    <div class="description">
+      <div class="maptext">
+        Das Gym ist in Frenkendorf und gut erreichbar. 
+        Du kannst mit dem Auto oder ÖV kommen. 
+        Es hat gute Geräte und genug Platz zum Trainieren.
+      </div>
+
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86232.8974813329!2d7.661617153169269!3d47.51371357552536!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791ca07d5cbbb99%3A0x60982fecd7126b4a!2sActiv%20Fitness%20Frenkendorf!5e0!3m2!1sde!2sch!4v1776274978836!5m2!1sde!2sch"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <h1 class="headline">
+      Erfolg im Gym ist kein Zufall. Plane, tracke und verbessere dein Training systematisch.
+    </h1>
+
+    <section class="new-section">
+      <h2>Training</h2>
+      <p>
+        Hier kannst du dein Training planen, deine Fortschritte verfolgen und dich steigern.
+      </p>
+    </section>
+
+    <!-- 💥 UPDATED TRAINING SYSTEM -->
+    <section class="split-section">
+
+      <h2>Dein Trainingsplan</h2>
+
+      <div class="split-container">
+
+        <div class="split-card" onclick="toggleCard(this)">
+          <h3>Brust + Trizeps</h3>
+          <ul>
+            <li>Kurzhantel Bankdrücken</li>
+            <li>Trizeps Pushdown</li>
+            <li>Kurzhantel Skullcrusher</li>
+            <li>Flys Maschine</li>
+            <li>Flys Kabel</li>
+            <li>Trizeps über Körper Kabel</li>
+          </ul>
+        </div>
+
+        <div class="split-card" onclick="toggleCard(this)">
+          <h3>Rücken + Bizeps</h3>
+          <ul>
+            <li>Latzug</li>
+            <li>Kurzhantel Preacher Curl</li>
+            <li>Pullover Maschine</li>
+            <li>Bizeps Kabel</li>
+            <li>Rückencurls</li>
+            <li>V-Bar Latziehen</li>
+            <li>Rudern SZ-Stange</li>
+          </ul>
+        </div>
+
+        <div class="split-card" onclick="toggleCard(this)">
+          <h3>Beine + Bauch</h3>
+          <ul>
+            <li>Hamstring Curls</li>
+            <li>Squat tief</li>
+            <li>Leg Extension</li>
+            <li>Beinpresse</li>
+            <li>Hüften Abduktion</li>
+            <li>Waden Maschine</li>
+            <li>Bauch Kabel</li>
+            <li>Bauch Maschine</li>
+          </ul>
+        </div>
+
+        <div class="split-card" onclick="toggleCard(this)">
+          <h3>Schulter + Bizeps</h3>
+          <ul>
+            <li>Seitheben</li>
+            <li>Facepulls</li>
+            <li>Schulterpresse</li>
+            <li>Hammercurls</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+  </body>
 </html>

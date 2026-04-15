@@ -14,4 +14,4 @@ Ich hab beschlossen eine Art Gym-Tagebuch/ Gym-Tracker zu programmieren. gestart
 </body>
 </html>
 --------------------------------------------------------------------------------------
-
+Somit habe ich schon                                                                                     
