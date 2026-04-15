@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
+/* ===== HEADER ===== */
 .header-image {
   height: 100vh;
   width: 100%;
@@ -39,6 +40,7 @@ body {
   text-shadow: 5px 5px rgb(167, 125, 20);
 }
 
+/* ===== DESCRIPTION ===== */
 .description {
   display: flex;
   align-items: flex-start;
@@ -66,24 +68,44 @@ body {
   height: 600px;
 }
 
+/* ===== SECTIONS ===== */
 .new-section {
   padding: 80px 50px;
   min-height: 100vh;
 }
 
-.new-section h2 {
-  font-size: 40px;
-  margin-bottom: 20px;
+/* ===== VIDEO ===== */
+.video {
+  width: 100%;
+  max-width: 1000px;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin: 40px auto;
+  border-radius: 12px;
 }
 
-.new-section p {
-  font-size: 20px;
-  line-height: 1.7;
-  max-width: 700px;
+.Video-Titel {
+  font-size: 44px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ===== SPLIT SYSTEM ===== */
+.Video-Beschreibung {
+  font-size: 18px;
+  text-align: center;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 25px auto;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+/* ===== TRAINING ===== */
 .split-section {
   padding: 80px 50px;
 }
@@ -91,38 +113,45 @@ body {
 .split-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 25px;
   justify-items: center;
 }
 
-/* 💥 CLEAN CARD DESIGN */
+/* 💥 BIG CARDS */
 .split-card {
   background: #f5f5f5;
-  padding: 30px;
-  border-radius: 16px;
+  padding: 55px;
+  border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
-  max-height: 90px;
-  overflow: hidden;
   width: 100%;
-  max-width: 450px;
+  max-width: 650px;
   box-sizing: border-box;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+
+  max-height: 120px;
+  overflow: hidden;
+}
+
+/* hover */
+.split-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
 
 /* open state */
 .split-card.active {
-  max-height: 420px;
-  transform: scale(1.08);
+  max-height: 650px;
+  transform: scale(1.06);
   background: #eaeaea;
   z-index: 10;
 }
 
 /* title */
 .split-card h3 {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 700;
   margin-bottom: 10px;
-  letter-spacing: 0.3px;
 }
 
 /* list hidden */
@@ -138,18 +167,9 @@ body {
   opacity: 1;
 }
 
-/* list items cleaner */
+/* items */
 .split-card li {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 19px;
+  line-height: 1.8;
   color: #222;
-}
-
-.video {
-  width: 100%;
-  max-width: 1000px;
-  aspect-ratio: 16 / 9;
-  display: block;
-  margin: 40px auto;
-  border-radius: 12px;
 }
