@@ -78,13 +78,13 @@ body {
   border: none;
 }
 
-/* ===== SECTIONS ===== */
+
 .new-section {
   padding: 80px 50px;
   min-height: 100vh;
 }
 
-/* ===== VIDEO ===== */
+
 .video {
   width: 100%;
   max-width: 1000px;
