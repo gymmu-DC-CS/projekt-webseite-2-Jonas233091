@@ -36,8 +36,6 @@ body {
   color: #ffcc00;
   transform: translateY(-2px);
 }
-
-/* HEADLINE */
 .headline {
   position: absolute;
   left: 50px;
@@ -47,8 +45,6 @@ body {
   width: 600px;
   text-shadow: 0 10px 30px rgba(0,0,0,0.7);
 }
-
-/* ===== DESCRIPTION (CENTER FIX) ===== */
 .description {
   display: flex;
   flex-direction: column;
