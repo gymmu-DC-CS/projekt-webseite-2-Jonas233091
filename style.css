@@ -215,3 +215,50 @@ body {
   line-height: 1.8;
   color: #ddd;
 }
+.log-section {
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.log-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.log-inputs input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.log-inputs button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background: #ffcc00;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.log-table {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.log-table th,
+.log-table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.log-table th {
+  background: rgba(255,255,255,0.08);
+}
