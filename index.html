@@ -119,6 +119,30 @@
 
     </section>
 
+    <section class="log-section">
+
+  <h2>Workout Log</h2>
+
+  <div class="log-inputs">
+    <input type="date" id="dateInput">
+    <input type="text" id="exerciseInput" placeholder="Übung">
+    <input type="number" id="weightInput" placeholder="Gewicht (kg)">
+    <button onclick="addLog()">Hinzufügen</button>
+  </div>
+
+  <table class="log-table">
+    <thead>
+      <tr>
+        <th>Datum</th>
+        <th>Übung</th>
+        <th>Gewicht</th>
+      </tr>
+    </thead>
+    <tbody id="logBody"></tbody>
+  </table>
+
+</section>
+
     <script src="script.js"></script>
 
   </body>
